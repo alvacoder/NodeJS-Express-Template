@@ -1,6 +1,8 @@
 ## NODE TEMPLATE (Express Framework)
 A custom flexible and generic NodeJS/Express template which covers most basic to advance needs of modern REST APIS.
-This template is compiled to be backward compatible using Babel.
+This template uses the functional programming paradigm and is compiled to be backward compatible using Babel.
+
+Authored By: [Idris Adeniji](https://github.com/alvacoder)
 
 ## DEPENDENCIES
 This template comes with the following dependencies defined:
