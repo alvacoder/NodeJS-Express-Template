@@ -6,8 +6,10 @@ import fileUpload from "express-fileupload";
 import morgan from "morgan";
 import bodyParser from "body-parser";
 
-import config from "./config";
+import initializeDb from "./config/db.js";
 import v1Router from "./routes/index.js";
+
+initializeDb();
 
 const app = new express();
 
